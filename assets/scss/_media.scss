@@ -1,0 +1,453 @@
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .navegacion-principal {
+        display: none;
+    }
+
+    .header {
+        .titulo h1 {
+            font-size: 2rem;
+            align-items: left;
+        }
+    }
+
+    /* NOSOTROS */
+    .info h2,
+    .info .contenido-linea {
+        grid-column: 1/3;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .img-p {
+        max-width: 70%;
+        height: 80%;
+        grid-column: 1/3;
+        margin: 0 auto;
+    }
+
+    .caja {
+        display: inline-block;
+        grid-column: 1/3;
+        text-align: center;
+    }
+
+    .all {
+        grid-column: 1/3;
+    }
+
+    /* reservaciones */
+
+    .item {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        margin-left: 50%;
+    }
+
+    .caja {
+        padding-bottom: 2rem;
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    .hr-item {
+        color: var(--blanco);
+        width: 100%;
+    }
+
+    .main-reserv {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 100%;
+    }
+
+    .cont-calendar {
+
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .calendar {
+
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+    }
+
+    .day {
+        list-style: none;
+        text-align: center;
+        max-width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 25%;
+        height: 8rem;
+        padding-top: .2em;
+        background-color: var(--blanco);
+        color: var(--negro);
+        font-weight: 700;
+        font-size: 1.8em;
+    }
+
+    .form {
+        grid-row: 2/3;
+        row-gap: 1rem;
+        text-align: center;
+        padding: 3rem;
+    }
+
+    .form label,
+    .form input,
+    .form select {
+        height: 2.5rem;
+        margin-top: 2rem;
+
+    }
+
+    .gout {
+        color: #969696;
+    }
+
+    .morado {
+        background-color: #b376c5;
+    }
+
+    .verde {
+        background-color: aquamarine;
+    }
+
+    .day:hover {
+        background-color: #969696;
+    }
+
+    .m-oscuro {
+        background-color: #9229b3;
+    }
+
+    
+}
+
+@media (min-width: 769px) {
+
+    .icons {
+        display: none;
+    }
+
+
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .header {
+        .btn-chk {
+            display: none;
+        }
+    }
+
+    .main {
+        height: 580px;
+    }
+
+    .main-eShop {
+        height: 80vh;
+    }
+
+    .titulo-main {
+        padding-top: 100px;
+    }
+
+
+    /* NOSOTROS */
+    .info h2,
+    .info .contenido-linea {
+        grid-column: 1/3;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .img-p {
+        max-width: 40%;
+        height: 80%;
+        grid-column: 1/3;
+        margin: 0 auto;
+    }
+
+    .caja {
+        display: inline-block;
+        grid-column: 1/3;
+        text-align: center;
+
+    }
+
+    .all {
+        grid-column: 1/3;
+    }
+
+    /* reservaciones */
+    .info {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .item {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    hr {
+        display: none;
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    .hr-item {
+        color: var(--blanco);
+        width: 100%;
+    }
+
+    .main {
+        height: 100vh;
+    }
+
+    .main-reserv {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 100%;
+    }
+
+    .cont-calendar {
+
+        width: 90%;
+        padding-top: 10%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .calendar {
+
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        height: 80rem;
+    }
+
+    .day {
+        list-style: none;
+        text-align: center;
+        max-width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 25%;
+        height: 100%;
+        padding-top: .2em;
+        background-color: var(--blanco);
+        color: var(--negro);
+        font-weight: 700;
+        font-size: 1.8em;
+    }
+
+    .form {
+        grid-row: 2/3;
+        row-gap: 1rem;
+        text-align: center;
+        padding: 3rem;
+    }
+
+    .form label,
+    .form input,
+    .form select {
+        height: 2.5rem;
+        margin-top: 2rem;
+
+    }
+
+    .gout {
+        color: #969696;
+        
+    }
+
+    .morado {
+        background-color: #b376c5;
+    }
+
+    .verde {
+        background-color: aquamarine;
+    }
+
+    .day:hover {
+        background-color: #969696;
+    }
+
+    .m-oscuro {
+        background-color: #9229b3;
+    }
+
+}
+
+@media (max-width: 480px) {
+/*FOTOS REDIMENCION*/
+.img-p {
+    max-width: 90%;
+    height: 80%;
+    grid-column: 1/3;
+    
+}
+    /**RESERVACION*/
+    .item {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        text-align: center;
+        
+
+    }
+    .item-product{
+        width:300px;
+    }
+    /*CALENDAR*/
+    .main-reserv {
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: 100%;
+    }
+    .cont-calendar {
+
+        width: 100%;
+        padding-top: 10%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .calendar {
+        display: grid;
+        column-gap: 0;
+        row-gap: 0;
+
+        padding: 240px 0;
+        width: 100%;
+        height: 80rem;
+    }
+
+    .day {
+        width:100%;
+        padding: 10px 0;
+        margin-bottom: 0;
+        list-style: none;
+        text-align: center;
+        border: 1px solid #ddd;
+        border-radius: 25%;
+        background-color: var(--blanco);
+        color: var(--negro);
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    .gout {
+        color: #969696;
+        
+    }
+
+    .morado {
+        background-color: #b376c5;
+    }
+
+    .verde {
+        background-color: aquamarine;
+    }
+
+    .day:hover {
+        background-color: #969696;
+    }
+
+    .m-oscuro {
+        background-color: #9229b3;
+    }
+/*GALERIA*/
+.gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2px;
+    transition: .3s;
+
+
+    width: 100%;
+    
+    &:hover &__image {
+        filter: grayscale(1);
+    }
+    
+    &__column {
+        display: flex;
+        width: 100px;
+        margin: 10px;
+    }
+    
+    &__link {
+        margin: 2px;
+        width: 250px;
+        overflow: hidden;
+        
+        &:hover {
+            .gallery__image {
+                filter: grayscale(0);
+            }
+            
+            .gallery__caption {
+                opacity: 1;
+            }
+        }
+    }
+    
+     &__thumb {
+         position: relative;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+
+         width: 100%;
+     }
+    
+    &__image {
+        display: block;
+        width: 100%;
+        transition: .3s;
+        
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    
+    &__caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 25px 15px 15px;
+        width: 100%;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        color: white;
+        opacity: 0;
+        background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255 ,255 , 0) 100%);
+        transition: .3s;
+    }
+    }
+}

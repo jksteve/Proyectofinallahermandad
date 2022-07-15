@@ -1,0 +1,31 @@
+
+/* e-shop */
+
+.item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 8rem;
+}
+.info{
+    margin-left: 50px;
+}
+$radious:(
+    bordes-radius: 50%,
+    box-sombra: -20px 10px 0px red
+);
+.img-pr {
+    /* position: absolute;
+    top: -5%;
+    left: 10%; */
+    border-radius: map-get($radious, bordes-radius );
+    box-shadow: map-get($radious , box-sombra );
+
+}
+.boton{
+    display: inline-block;
+    grid-column: 1/3;
+    text-align: center;
+}
+.caja {
+    @extend .boton;
+}
